@@ -34,9 +34,9 @@ description: my hello page description
 
 新しい記事やアップデートを見逃さないように、SNSでフォローしてください。
 
-- [Twitter](TwitterのURL)
+<!-- - [Twitter](TwitterのURL)
 - [Facebook](FacebookのURL)
-- [Instagram](InstagramのURL)
+- [Instagram](InstagramのURL) -->
 
 ## メーリングリスト
 
