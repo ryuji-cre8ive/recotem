@@ -60,6 +60,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: "google-site-verification",
+          content: "_NdjN27EKPzIYUJeUtFVWPXfgvEtC-uwNY0FWDdpIwQ",
+        },
+        { name: "robots", content: "max-image-preview:large" },
+      ],
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {

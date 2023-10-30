@@ -10,11 +10,13 @@ import styles from "./index.module.css";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <head>
-      <meta
-        name="google-site-verification"
-        content="_NdjN27EKPzIYUJeUtFVWPXfgvEtC-uwNY0FWDdpIwQ"
-      />
+    <>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="_NdjN27EKPzIYUJeUtFVWPXfgvEtC-uwNY0FWDdpIwQ"
+        />
+      </head>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -29,7 +31,7 @@ function HomepageHeader() {
           </div>
         </div>
       </header>
-    </head>
+    </>
   );
 }
 
