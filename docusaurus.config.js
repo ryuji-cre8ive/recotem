@@ -119,15 +119,6 @@ const config = {
               },
             ],
           },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Recotem, Inc. Built with Docusaurus.`,
       },
