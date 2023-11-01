@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Recotem",
-  favicon: "img/recotem-logo.png",
+  favicon: "img/recotem-logo.svg",
 
   // Set the production url of your site here
   url: "https://recotem.vercel.app/",
@@ -79,7 +79,9 @@ const config = {
         title: "Recotem",
         logo: {
           alt: "My Site Logo",
-          src: "img/recotem-logo.png",
+          src: "img/recotem-logo.svg",
+          width: 32,
+          height: 32,
         },
         items: [
           {
